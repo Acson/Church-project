@@ -1,0 +1,29 @@
+#search_form #s {  padding: 4px 6px 0; height:19px;  }
+
+h3.title {
+padding:4px 0 3px 10px;
+line-height:1.8;
+}
+
+#postsSmall ul.pagination li a {
+padding-left:0;
+}
+
+#postsSmall ul.pagination li a:hover, #postsSmall ul.pagination li a.current {
+padding-left:11px;
+}
+
+.category {
+float:left; }
+
+#main .home_widgets .widget {
+float:left;
+}
+
+
+#footer p.wpzoom img {
+vertical-align:top;
+float:none;
+}
+
+#commentform label span { float:none; }
