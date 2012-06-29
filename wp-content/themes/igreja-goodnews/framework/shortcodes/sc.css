@@ -1,0 +1,40 @@
+pre, code {
+    padding:5px;
+}
+pre, code {
+    background: url("images/bg-code.gif") repeat scroll 0 0 transparent;
+    border: 1px solid #DDDDDD;
+    margin: 30px 0 40px;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+ol, ul {
+    list-style-position: outside;
+    margin-left: 2.35em;
+}
+ol {
+    list-style-type: decimal;
+}
+ul {
+    list-style-type: disc;
+}
+
+blockquote {
+           background: url("images/quote.png") no-repeat scroll left top transparent;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 22px;
+    margin: 0 0 30px 50px;
+    padding: 0 50px;
+}
+blockquote.alignleft {
+    margin: 5px 20px 0 11px;
+    width: 220px;
+}
+
+blockquote.alignright {
+    margin: 5px 0 0 31px;
+    width: 220px;
+}
+
