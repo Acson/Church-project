@@ -2926,3 +2926,8 @@ margin: 0 10px 0 0;
 .box_banner {
        margin-bottom:20px;
 }
+
+/*   Alterações e criações */
+.single_article_content {  
+    font-size: 15px;
+    text-align: justify;}
