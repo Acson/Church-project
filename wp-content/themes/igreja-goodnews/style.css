@@ -999,7 +999,7 @@ a.nb_recent_more:hover {
        width:50%;
 }
 .left_ul ul.more_news {
-       border-right:1px dotted #bfbfbf;
+       /*border-right:1px dotted #bfbfbf; */
 }
 .right_ul ul.more_news {
        margin-left:20px;

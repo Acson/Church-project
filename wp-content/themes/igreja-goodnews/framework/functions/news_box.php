@@ -134,34 +134,7 @@ function mom_gn_news_box($cat) {
                 <?php wp_reset_query(); ?>
                 </ul>
 		</div> <!--Left ul-->
-		<div class="right_ul">
-                <ul class="more_news">
-                            <?php query_posts(array('showposts' => 3, 'offset' => 4, 'cat' => $cat )); ?>
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                    <li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><span><?php _e('&raquo;', 'theme'); ?></span>
-			     
-			  <?php if( is_rtl() ) { ?>
-			  <?php if (strlen($post->post_title) > 45) {
-					    $title = get_the_title('');
-					    echo wp_html_excerpt($title,45) . '...'; } else {
-					the_title();
-					} ?>
-				<?php } else { ?>
-				 <?php if (strlen($post->post_title) > 45) {
-			    echo substr(the_title($before = '', $after = '', FALSE), 0, 45) . '...'; } else {
-			    the_title();
-			    } ?>
-			    <?php } ?>
-
-			    
-		    </a></li>
-                <?php endwhile; ?>
-                <?php  else:  ?>
-                <!-- Else in here -->
-                <?php  endif; ?>
-                <?php wp_reset_query(); ?>
-                </ul>
-		</div> <!--more_news_wrap-->
+		
 		</div>
             </div> <!--End News Box Right-->
         </div> <!--News Box-->
